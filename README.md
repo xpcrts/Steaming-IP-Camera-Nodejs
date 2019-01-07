@@ -7,14 +7,13 @@ Open source project of real time streaming IP/Network security camera on web app
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-
+* [Node.js](https://nodejs.org/en/) - Node.js >= 10.15.0
 What things you need to install the software and how to install them
 * [node-onvif](https://www.npmjs.com/package/node-onvif) - Node.js module allows to communicate with the network camera
-
-* [node-onvif] (https://www.npmjs.com/package/node-onvif) - Node.js module allows to communicate with the network camera
 ```
-npm i node-onvif
+npm i node-onvif -s
 ```
+* [node-onvif](https://www.npmjs.com/package/node-onvif) - Node.js module allows to communicate with the network camera
 
 ### Installing
 
