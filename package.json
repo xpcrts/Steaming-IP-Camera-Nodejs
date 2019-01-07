@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/xpcrts/Steaming-IP-Camera-Nodejs#readme",
   "dependencies": {
-    "node-onvif": "^0.1.7"
+    "node-onvif": "^0.1.7",
+    "node-rtsp-stream": "0.0.4"
   }
 }
