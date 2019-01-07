@@ -30,7 +30,7 @@ git clone https://github.com/xpcrts/Steaming-IP-Camera-Nodejs
 ```
 3. Download and install Node.js on your local machine
 * [Node.js](https://nodejs.org/en/) - Node.js >= 10.15.0
-2. Download and install pre-build FFMPEG Build on your local machine (Download Build)
+4. Download and install pre-build FFMPEG Build on your local machine (Download Build)
 * [FFmpeg](https://ffmpeg.zeranoe.com/builds/) - Multimedia framework to decode, encode, transcode, mux, demux, stream, filter and play<br />
 * Copy the FFMPEG Zip folder you have just downloaded, paste it into C: drive for simplicity and unzip it.
 * Rename the file to <strong>ffmpeg</strong> for simpicity
@@ -38,17 +38,25 @@ git clone https://github.com/xpcrts/Steaming-IP-Camera-Nodejs
 #### On Microsoft Windows
 You need to add ffmpeg to <strong>system variables</strong> (For all users) or <strong>User variables</strong> (For specific user)<br />
 For research and test, I recommend to add the ffmpeg path to the <strong>system variables</strong> to do that just navigate to:
-1. Control Panel
-2. System and Security
-3. System 
-4. Advanced system settings
-5. Environment Variables...
-6. System variables
-7. Path (Double-click on it)
-8. New
-9. Paste this
+a. Control Panel
+b. System and Security
+c. System 
+d. Advanced system settings
+e. Environment Variables...
+f. System variables
+g. Path (Double-click on it)
+h. New
+i. Paste this
 ```C:\ffmpeg\bin```
-10. OK (3 times)
+j. OK (3 times)<br />
+5. NPM install node-onvif
+```
+npm install node-onvif -s
+```
+6.NPM install node-rtsp-stream
+```
+npm i node-rtsp-stream
+```
 
 
 ... bin
