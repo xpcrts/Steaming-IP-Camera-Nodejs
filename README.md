@@ -7,24 +7,16 @@ Open source project of real time streaming (~30 fps) IP/Network security camera 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
+
 What things you need to install the software and how to install them
 * [Git](https://git-scm.com/downloads) - free and open source distributed version control system 
-
-
 * [Node.js](https://nodejs.org/en/) - Node.js >= 10.15.0
-* [node-onvif](https://www.npmjs.com/package/node-onvif) - Node.js module allows to communicate with the network camera
-```
-npm i node-onvif -s
-```
 * [FFmpeg](https://ffmpeg.zeranoe.com/builds/) - Multimedia framework to decode, encode, transcode, mux, demux, stream, filter and play
 
-* [node-onvif](https://www.npmjs.com/package/node-onvif) - Node.js module allows to communicate with the network camera
-* [http-server](https://www.npmjs.com/package/http-server) - http-server is a simple, zero-configuration command-line http server. 
-
-
-
 ### Installing
-A step by step series of examples that tell you how to get a development env running
+
+A step by step series of examples that tell you how to get a development up and running
+
 1. Download Git
 * [Git](https://git-scm.com/downloads)
 2. Open <strong>command prompt/terminal</strong>, Clone this repository to your local machine
@@ -65,9 +57,6 @@ npm i node-rtsp-stream -s
 npm install http-server -g
 ```
 
-
-End with an example of getting some data out of the system or using it for a little demo
-
 ## Running the tests
 1. In the repository, navigate to <i>app.js</i> file
 * Change IP address to your camera IP address
@@ -86,22 +75,28 @@ hit enter to run<br />
 Now keep those two terminal up and running<br/>
 Preview Streaming Camera on web browser by go to this URL:
 [127.0.0.1:8000](http://127.0.0.1:8080/)
-
-You are ready to go.
+> You are ready to go.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/xpcrts/Steaming-IP-Camera-Nodejs/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## To-dos
+
+* Streaming Multiple camera channels at once, using 4x4 grid or more
+* Customize width and height of canvas
+* Improve streaming resolution quality
+* Decrease streaming latency 
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/xpcrts/Steaming-IP-Camera-Nodejs/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Phok Chanrithisak** - *Initial work* - [xpcrts](https://github.com/xpcrts)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/xpcrts/Steaming-IP-Camera-Nodejs/graphs/contributors) who participated in this project.
 
 ## License
 
@@ -109,6 +104,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration: Thank you to Celalettin Erbulut
-* etc
+* Credit to: Celalettin Erbulut
+
