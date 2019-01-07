@@ -33,11 +33,28 @@ git clone https://github.com/xpcrts/Steaming-IP-Camera-Nodejs
 2. Download and install pre-build FFMPEG Build on your local machine (Download Build)
 * [FFmpeg](https://ffmpeg.zeranoe.com/builds/) - Multimedia framework to decode, encode, transcode, mux, demux, stream, filter and play<br />
 * Copy the FFMPEG Zip folder you have just downloaded, paste it into C: drive for simplicity and unzip it.
-* After unzipped the file, go to the folder you will find list of folders and file
+* Rename the file to <strong>ffmpeg</strong> for simpicity
+* After unzipped the file, navigate ffmpeg/bin <br/>
+#### On Microsoft Windows
+You need to add ffmpeg to <strong>system variables</strong> (For all users) or <strong>User variables</strong> (For specific user)<br />
+For research and test, I recommend to add the ffmpeg path to the <strong>system variables</strong> to do that just navigate to:
+1. Control Panel
+2. System and Security
+3. System 
+4. Advanced system settings
+5. Environment Variables...
+6. System variables
+7. Path (Double-click on it)
+8. New
+9. Paste this
+```C:\ffmpeg\bin```
+10. OK (3 times)
+
+
 ... bin
 ... doc
 
-```
+``` 
 Give the example
 ```
 
