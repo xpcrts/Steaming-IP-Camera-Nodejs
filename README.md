@@ -9,6 +9,7 @@ These instructions will get you a copy of the project to make it up and running 
 ### Prerequisites
 
 What things you need to install the software and how to install them
+
 * [Git](https://git-scm.com/downloads) - free and open source distributed version control system 
 * [Node.js](https://nodejs.org/en/) - Node.js >= 10.15.0
 * [FFmpeg](https://ffmpeg.zeranoe.com/builds/) - Multimedia framework to decode, encode, transcode, mux, demux, stream, filter and play
@@ -43,7 +44,7 @@ g. Path (Double-click on it)<br/>
 h. New<br/>
 i. Paste this
 ```C:\ffmpeg\bin```
-j. OK (3 times)<br />
+j. OK (3 times)<br /><br/>
 5. NPM install node-onvif
 ```
 npm install node-onvif -s
@@ -58,24 +59,25 @@ npm install http-server -g
 ```
 
 ## Running the tests
-1. In the repository, navigate to <i>app.js</i> file
+
+1. In the repository, open <i>app.js</i> file
 * Change IP address to your camera IP address
 * Username of your network camera
-* Password of your network camera
+* Password of your network camera<br/>
 2. Open one command prompt/terminal, navigate to "Streaming-IP-Camera-Nodejs/src" directory and type:
 ```
 http-server
 ```
-hit enter to run<br />
+hit enter to run<br /><br/>
 3. Open another command prompt/terminal, on the same directory path and type: 
 ```
 node app.js
 ```
-hit enter to run<br />
-Now keep those two terminal up and running<br/>
-Preview Streaming Camera on web browser by go to this URL:
-[127.0.0.1:8000](http://127.0.0.1:8080/)
-> You are ready to go.
+hit enter to run<br /><br/>
+Now keep those two terminal up and running<br/><br/>
+<strong>Preview Streaming Camera on web browser by go to this URL:<br/></strong>
+[127.0.0.1:8000](http://127.0.0.1:8080/)<br/><br/>
+You are ready to go.
 
 ## Contributing
 
