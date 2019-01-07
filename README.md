@@ -1,6 +1,6 @@
 # Steaming IP Camera Nodejs
 
-Open source project of real time streaming IP/Network security camera on web application using NodeJS
+Open source project of real time streaming (~30 fps) IP/Network security camera on web browser using NodeJS
 
 ## Getting Started
 
@@ -19,6 +19,9 @@ npm i node-onvif -s
 * [FFmpeg](https://ffmpeg.zeranoe.com/builds/) - Multimedia framework to decode, encode, transcode, mux, demux, stream, filter and play
 
 * [node-onvif](https://www.npmjs.com/package/node-onvif) - Node.js module allows to communicate with the network camera
+* [http-server](https://www.npmjs.com/package/http-server) - http-server is a simple, zero-configuration command-line http server. 
+
+
 
 ### Installing
 A step by step series of examples that tell you how to get a development env running
@@ -30,22 +33,22 @@ git clone https://github.com/xpcrts/Steaming-IP-Camera-Nodejs
 ```
 3. Download and install Node.js on your local machine
 * [Node.js](https://nodejs.org/en/) - Node.js >= 10.15.0
-4. Download and install pre-build FFMPEG Build on your local machine (Download Build)
+4. Download and install pre-build FFMPEG Builds on your local machine (Download Build)
 * [FFmpeg](https://ffmpeg.zeranoe.com/builds/) - Multimedia framework to decode, encode, transcode, mux, demux, stream, filter and play<br />
 * Copy the FFMPEG Zip folder you have just downloaded, paste it into C: drive for simplicity and unzip it.
 * Rename the file to <strong>ffmpeg</strong> for simpicity
 * After unzipped the file, navigate ffmpeg/bin <br/>
 #### On Microsoft Windows
 You need to add ffmpeg to <strong>system variables</strong> (For all users) or <strong>User variables</strong> (For specific user)<br />
-For research and test, I recommend to add the ffmpeg path to the <strong>system variables</strong> to do that just navigate to:
-a. Control Panel
-b. System and Security
-c. System 
-d. Advanced system settings
-e. Environment Variables...
-f. System variables
-g. Path (Double-click on it)
-h. New
+For research and test, I recommend to add the ffmpeg path to the <strong>system variables</strong> to do that just navigate to:<br/>
+a. Control Panel<br/>
+b. System and Security<br/>
+c. System <br/>
+d. Advanced system settings<br/>
+e. Environment Variables...<br/>
+f. System variables<br/>
+g. Path (Double-click on it)<br/>
+h. New<br/>
 i. Paste this
 ```C:\ffmpeg\bin```
 j. OK (3 times)<br />
@@ -53,56 +56,38 @@ j. OK (3 times)<br />
 ```
 npm install node-onvif -s
 ```
-6.NPM install node-rtsp-stream
+6.NPM install node-rtsp-stream<br/>
 ```
-npm i node-rtsp-stream
+npm i node-rtsp-stream -s
 ```
-
-
-... bin
-... doc
-
-``` 
-Give the example
+7.NPM install http-server<br/>
+```
+npm install http-server -g
 ```
 
-And repeat
-
-```
-until finished
-```
 
 End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+1. In the repository, navigate to <i>app.js</i> file
+* Change IP address to your camera IP address
+* Username of your network camera
+* Password of your network camera
+2. Open one command prompt/terminal, navigate to "Streaming-IP-Camera-Nodejs" directory and type:
 ```
-Give an example
+http-server
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
+hit enter to run<br />
+3. Open another command prompt/terminal, on the same directory path and type: 
 ```
-Give an example
+node app.js
 ```
+hit enter to run<br />
+Now keep those two terminal up and running<br/>
+Preview Streaming Camera on web browser by go to this URL:
+[127.0.0.1:8000](http://127.0.0.1:8080/)
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+You are ready to go.
 
 ## Contributing
 
