@@ -8,18 +8,34 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 What things you need to install the software and how to install them
+* [Git](https://git-scm.com/downloads) - free and open source distributed version control system 
+
+
 * [Node.js](https://nodejs.org/en/) - Node.js >= 10.15.0
 * [node-onvif](https://www.npmjs.com/package/node-onvif) - Node.js module allows to communicate with the network camera
 ```
 npm i node-onvif -s
 ```
+* [FFmpeg](https://ffmpeg.zeranoe.com/builds/) - Multimedia framework to decode, encode, transcode, mux, demux, stream, filter and play
+
 * [node-onvif](https://www.npmjs.com/package/node-onvif) - Node.js module allows to communicate with the network camera
 
 ### Installing
-
 A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+1. Download Git
+* [Git](https://git-scm.com/downloads)
+2. Open <strong>command prompt/terminal</strong>, Clone this repository to your local machine
+```
+git clone https://github.com/xpcrts/Steaming-IP-Camera-Nodejs
+```
+3. Download and install Node.js on your local machine
+* [Node.js](https://nodejs.org/en/) - Node.js >= 10.15.0
+2. Download and install pre-build FFMPEG Build on your local machine (Download Build)
+* [FFmpeg](https://ffmpeg.zeranoe.com/builds/) - Multimedia framework to decode, encode, transcode, mux, demux, stream, filter and play
+##Copy the FFMPEG Zip folder you have just downloaded, paste it into C: drive for simplicity and unzip it.
+##After unzipped the file, go to the folder you will find list of folders and file
+##*bin
+##*doc
 
 ```
 Give the example
