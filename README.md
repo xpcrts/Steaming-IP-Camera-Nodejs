@@ -34,8 +34,8 @@ git clone https://github.com/xpcrts/Steaming-IP-Camera-Nodejs
 * [FFmpeg](https://ffmpeg.zeranoe.com/builds/) - Multimedia framework to decode, encode, transcode, mux, demux, stream, filter and play<br />
 * Copy the FFMPEG Zip folder you have just downloaded, paste it into C: drive for simplicity and unzip it.
 * After unzipped the file, go to the folder you will find list of folders and file
-..- bin
-..- doc
+..* bin
+..* doc
 
 ```
 Give the example
