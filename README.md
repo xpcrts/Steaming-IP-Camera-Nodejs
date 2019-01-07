@@ -45,7 +45,7 @@ f. System variables<br/>
 g. Path (Double-click on it)<br/>
 h. New<br/>
 i. Paste this
-```C:\ffmpeg\bin```
+```C:\ffmpeg\bin```<br/>
 j. OK (3 times)<br /><br/>
 5. NPM install node-onvif
 ```
@@ -98,7 +98,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Phok Chanrithisak** - *Initial work* - [xpcrts](https://github.com/xpcrts)
+* **Phok Chanrithisak** - [xpcrts](https://github.com/xpcrts)
 
 See also the list of [contributors](https://github.com/xpcrts/Steaming-IP-Camera-Nodejs/graphs/contributors) who participated in this project.
 
