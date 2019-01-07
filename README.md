@@ -9,6 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What things you need to install the software and how to install them
+* [node-onvif](https://www.npmjs.com/package/node-onvif) - Node.js module allows to communicate with the network camera
 
 * [node-onvif] (https://www.npmjs.com/package/node-onvif) - Node.js module allows to communicate with the network camera
 ```
