@@ -62,7 +62,7 @@ npm install http-server -g
 * Change IP address to your camera IP address
 * Username of your network camera
 * Password of your network camera
-2. Open one command prompt/terminal, navigate to "Streaming-IP-Camera-Nodejs" directory and type:
+2. Open one command prompt/terminal, navigate to "Streaming-IP-Camera-Nodejs/src" directory and type:
 ```
 http-server
 ```
