@@ -31,10 +31,10 @@ git clone https://github.com/xpcrts/Steaming-IP-Camera-Nodejs
 3. Download and install Node.js on your local machine
 * [Node.js](https://nodejs.org/en/) - Node.js >= 10.15.0
 2. Download and install pre-build FFMPEG Build on your local machine (Download Build)
-* [FFmpeg](https://ffmpeg.zeranoe.com/builds/) - Multimedia framework to decode, encode, transcode, mux, demux, stream, filter and play
-##Copy the FFMPEG Zip folder you have just downloaded, paste it into C: drive for simplicity and unzip it.
-##After unzipped the file, go to the folder you will find list of folders and file
-##*bin
+* [FFmpeg](https://ffmpeg.zeranoe.com/builds/) - Multimedia framework to decode, encode, transcode, mux, demux, stream, filter and play<br />
+**Copy the FFMPEG Zip folder you have just downloaded, paste it into C: drive for simplicity and unzip it.
+**After unzipped the file, go to the folder you will find list of folders and file
+****bin
 ##*doc
 
 ```
