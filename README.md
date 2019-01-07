@@ -1,7 +1,6 @@
-# Steaming-IP-Camera-Nodejs
-Real time streaming IP/Network security camera on web application using NodeJS
+# Steaming IP Camera Nodejs
 
-One Paragraph of project description goes here
+Open source project of real time streaming IP/Network security camera on web application using NodeJS
 
 ## Getting Started
 
