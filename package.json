@@ -1,0 +1,29 @@
+{
+  "name": "steaming-ip-camera-nodejs",
+  "version": "1.0.0",
+  "description": "Open source project of real time streaming IP/Network security camera on web application using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpcrts/Steaming-IP-Camera-Nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "ip-camera",
+    "real-time",
+    "webapp"
+  ],
+  "author": "Phok Chanrithisak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xpcrts/Steaming-IP-Camera-Nodejs/issues"
+  },
+  "homepage": "https://github.com/xpcrts/Steaming-IP-Camera-Nodejs#readme",
+  "dependencies": {
+    "node-onvif": "^0.1.7",
+    "node-rtsp-stream": "0.0.4"
+  }
+}
