@@ -77,7 +77,7 @@ http-server
 hit enter to run<br /><br/>
 3. Open another command prompt/terminal, on the same directory path and type: 
 ```
-node app.js
+npm start
 ```
 hit enter to run<br /><br/>
 Now keep those two terminal up and running<br/><br/>
