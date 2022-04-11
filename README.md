@@ -1,7 +1,7 @@
 # Steaming IP Camera Nodejs
 ### Donate me (if it helpful)
 [![](https://img.shields.io/badge/%24-donate-green.svg)](https://github.com/QingWei-Li/donate)
-Bitcoin (BTC): bc1qtmvj9670pxrrdhqg98zge6qkw3kr590r96kq5p
+Bitcoin (BTC): bc1qtmvj9670pxrrdhqg98zge6qkw3kr590r96kq5p <br/>
 Ethereum (ETH) or USDT (ETH Network) or USDC (ETH Network): 0x16f2b8e63859f5665023D33d65DBcba189e4A9d4
 
 Open source project of real time streaming (~30 fps) IP/Network security camera on web browser using NodeJS
@@ -118,7 +118,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 # Donate me (if it helpful)
 [![](https://img.shields.io/badge/%24-donate-green.svg)](https://github.com/QingWei-Li/donate)
-Bitcoin (BTC): bc1qtmvj9670pxrrdhqg98zge6qkw3kr590r96kq5p
+Bitcoin (BTC): bc1qtmvj9670pxrrdhqg98zge6qkw3kr590r96kq5p <br/>
 Ethereum (ETH) or USDT (ETH Network) or USDC (ETH Network): 0x16f2b8e63859f5665023D33d65DBcba189e4A9d4
 
 
